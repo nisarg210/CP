@@ -25,10 +25,7 @@
 #define sz(x) ((int)(x).size())
 #define br "\n"
 
-#define loop(i, a, b) for (int i = a; i < b; ++i)
-#define loopr(i, a, b) for (int i = a; i >= b; --i)
-#define loops(i, a, b, step) for (int i = a; i < b; i += step)
-#define looprs(i, a, b, step) for (int i = a; i >= b; i -= step)
+
 
 #define ull unsigned long long int
 #define ll long long int
@@ -39,19 +36,19 @@
 #define L list
 #define V vector
 #define D deque
-#define ST set
-#define MS multiset
-#define M map
-#define UM unordered_map
-#define mp make_pair
-#define eb emplace_back // use eb instead of pb its much faster
-#define pb push_back
-#define pf push_front
-#define MM multimap
-#define F first
-#define S second
-#define IT iterator
-#define RIT reverse_iterator
+// #define ST set
+// #define MS multiset
+// #define M map
+// #define UM unordered_map
+// #define mp make_pair
+// #define eb emplace_back // use eb instead of pb its much faster
+// #define pb push_back
+// #define pf push_front
+// #define MM multimap
+// #define F first
+// #define S second
+// #define IT iterator
+// #define RIT reverse_iterator
 
 #define FASTIO                        \
     ios_base::sync_with_stdio(false); \
